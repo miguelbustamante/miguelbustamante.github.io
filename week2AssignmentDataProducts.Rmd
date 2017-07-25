@@ -9,9 +9,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## My Map
+## Relaxing site
 
-The is the place I go out for a walk.
+This is the place I go out for a walk. It goes along the with the ocean for about 3 miles.
 
 
 ```{r map}

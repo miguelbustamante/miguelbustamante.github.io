@@ -1,0 +1,23 @@
+---
+title: "MyMap - Week 2 Assignment"
+author: "Miguel Alfonso Bustamante Sanchez"
+date: "July 24, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## My Map
+
+The is the place I go out for a walk.
+
+
+```{r map}
+library(leaflet)
+my_map <- leaflet() %>% addTiles() %>% addMarkers(lat=8.948864100000002, lng=-79.54059180000002, popup="Cinta Costera")
+my_map
+```
+
+

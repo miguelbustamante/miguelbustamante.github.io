@@ -1,12 +1,11 @@
 import { useState } from 'react';
 
-function Nav() {
-  const [isOpen, setIsOpen] = useState(false);
+const Nav: React.FC = () => {
+  const [isOpen, setIsOpen] = useState<boolean>(false); // Explicitly typing `isOpen` as a boolean
 
   return (
     <nav className="bg-gray-100 py-4">
       <div className="max-w-5xl mx-auto px-4 flex justify-between items-center">
-        <a href="/" className="text-lg font-semibold">Home</a>
         <button
           className="md:hidden"
           onClick={() => setIsOpen(!isOpen)}

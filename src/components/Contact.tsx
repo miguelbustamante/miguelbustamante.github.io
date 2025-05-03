@@ -1,4 +1,6 @@
-function Contact() {
+import React from 'react';
+
+const Contact: React.FC = () => {
   return (
     <section id="contact" className="max-w-5xl mx-auto px-4 my-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
